@@ -155,7 +155,7 @@ header nav {
   .article.one {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),  url("images/article1.jpg");
   }
-  
+
   .logo-header {
     display: block;
     width: 120px;
@@ -239,4 +239,105 @@ header nav {
   .latest-news h3 {
     margin-top: 0;
   }
+}
+
+@media (max-width:768px) {
+  .surface {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .surface-articles {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+  }
+
+  .surface .surface-articles img {
+    width: 100%;
+  }
+
+  .surface .surface-articles {
+    padding: 5px;
+  }
+
+  .surface h3 {
+    margin-top: 0;
+  }
+
+}
+
+.surface h1 a {
+  text-decoration: none;
+  color: #e25822;
+  font-weight: bold;
+}
+
+.surface {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto))
+}
+
+.surface img {
+  width: 220px;
+  height: 120px;
+}
+
+.surface header {
+  grid-column: 1 / -1;
+}
+
+.surface .surface-articles a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.surface-articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-rounds {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto))
+}
+
+.funding-rounds header a {
+  text-decoration: none;
+  color: #e25822;
+  font-weight: bold;
+}
+
+.funding-rounds header {
+  grid-column: 1 / -1;
+}
+
+.funding-rounds li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.funding-rounds ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.funding-box {
+  display: grid;
+  background-color: #fcf9ea;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.funding-box header {
+  background-color: #f8a978;
+}
+
+.funding-box header span {
+  color: white;
+}
+
+.funding-box header span p {
+  color: black;
 }
