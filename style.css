@@ -39,17 +39,26 @@ header nav {
   color: grey;
 }
 
+.nav-message a {
+  text-decoration: none;
+  color: black;
+}
+
+.upper-menus li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.upper-menus li a:hover {
+  color: white;
+}
+
 .lower-menus a:hover {
   color: black;
 }
 
 .nav-message {
   background: #fd3;
-}
-
-.nav-message a {
-  text-decoration: none;
-  color: black;
 }
 
 .lower-menus button {
@@ -80,15 +89,6 @@ header nav {
 
 .upper-menus li {
   margin-right: 10px;
-}
-
-.upper-menus li a {
-  text-decoration: none;
-  color: grey;
-}
-
-.upper-menus li a:hover {
-  color: white;
 }
 
 .main-articles {
