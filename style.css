@@ -120,8 +120,37 @@ header nav {
   }
 
   .lower-menus{
-    
+
   }
+
+
+
+.cover-logo {
+  position: absolute;
+
+}
+
+.article1 {
+  grid-row: 1 / span 2;
+  grid-column: 1 /1;
+  background-image: url("images/article1.jpg");
+}
+
+.article2 {
+  grid-row: 1 / 2;
+  background-image: url("images/article2.jpg");
+}
+
+.article3 {
+  grid-row: 2 / 3;
+  background-image: url("images/article3.jpg");
+}
+
+.main-articles {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 200px 200px;
+}
+
 
   header nav {
     grid-template-columns: 1fr 40px 40px;
