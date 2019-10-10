@@ -44,7 +44,7 @@ header nav {
   color: grey;
 }
 
-.funding-rounds header a {
+.funding-rounds-header a {
   text-decoration: none;
   color: #e25822;
   font-weight: bold;
@@ -151,7 +151,7 @@ header nav {
   margin: 0 auto;
 }
 
-.latest-news header {
+.latest-news-header {
   grid-column: 1 / -1;
 }
 
@@ -176,7 +176,7 @@ header nav {
   margin: 0 auto;
 }
 
-.surface header {
+.surface-header {
   grid-column: 1 / -1;
 }
 
@@ -192,7 +192,7 @@ header nav {
   margin: 0 auto;
 }
 
-.funding-rounds header {
+.funding-rounds-header {
   grid-column: 1 / -1;
 }
 
@@ -214,15 +214,15 @@ header nav {
   margin-right: 20px;
 }
 
-.funding-box header {
+.funding-box-header {
   background-color: #f8a978;
 }
 
-.funding-box header span {
+.funding-box-header span {
   color: white;
 }
 
-.funding-box header span p {
+.funding-box-header span p {
   color: black;
 }
 
@@ -236,7 +236,7 @@ header nav {
   padding: 5px;
 }
 
-.theme-articles .theme-box header {
+.theme-articles .theme-box-header {
   display: flex;
   height: 250px;
   flex-direction: column;
@@ -245,7 +245,7 @@ header nav {
   background-image: url("images/default.png");
 }
 
-.theme-box header * {
+.theme-box-header * {
   margin: 0;
 }
 
