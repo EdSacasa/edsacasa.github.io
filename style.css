@@ -460,4 +460,8 @@ footer .upper-footer button {
   .latest-deals .deals .deals-content * {
     margin: 0;
   }
+
+  .funding-rounds {
+    grid-template-columns: 1fr;
+  }
 }
